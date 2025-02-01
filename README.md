@@ -8,7 +8,7 @@ Create your Telegram Bot following BotFather's instructions inside Telegram. Sta
 
 **Second step**
 
-Edit the python code and specify the TNC IP/DNS and port in the configuration section. Nothing else is needed. You can run the code and check that it reaches the TNC, then wait for your iGate LoRa to receive APRS packets from the network. These will be displayed and sent to the script that runs the Bot. The two files must reside in the same folder. If the iGate is restarted or becomes unreachable, you will need to restart the program. To put it in the background you can use this syntax: **nohup python3 igate_monitor.py &**<br><br>
+Edit the python code and specify the TNC ip/dns and port in the configuration section. Nothing else is needed. You can run the code and check that it reaches the TNC, then wait for your iGate LoRa to receive APRS packets from the network. These will be displayed and sent to the script that runs the Bot. The two files must reside in the same folder. If the iGate is restarted or becomes unreachable, you will need to restart the program. To put it in the background you can use this syntax: **nohup python3 igate_monitor.py &**<br><br>
 
 
 
