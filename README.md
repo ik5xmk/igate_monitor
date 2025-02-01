@@ -1,7 +1,7 @@
 # igate_monitor
 View received packets from an iGate LoRa APRS in a Telegram Bot
 
-Simple procedure written in Python3 that receives packets from a LoRa APRS iGate (**Kiss functionality must be enabled in the iGate**) by [CA2RXU](https://github.com/richonguzman/LoRa_APRS_iGate) and sends them to a Telegram Bot.<br><br>
+Simple procedure written in Python3 and working on linux that receives packets from a LoRa APRS iGate (**Kiss functionality must be enabled in the iGate**) by [CA2RXU](https://github.com/richonguzman/LoRa_APRS_iGate) and sends them to a Telegram Bot.<br><br>
 **First step**
 
 Create your Telegram Bot following BotFather's instructions inside Telegram. Start it and retrieve your CHAT ID, then insert your API TOKEN and CHAT ID into the igate_monitor.sh script. The .sh script must be runnable. You need curl present in your system to run the Bot. You can test if everything works by running **sh igate_monitor.sh TEXT** (needs an argument).<br><br>
